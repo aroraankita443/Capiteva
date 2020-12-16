@@ -1,0 +1,214 @@
+
+    /*CSS FOR BODY*/
+        .body {background: url(/static/farm.jpg);
+               background-size: 100%;
+               }
+
+    /* CSS FOR HEAD*/
+        .head {position: absolute;
+               background: url(/static/bck.jpeg);
+               top: -0.5px;
+               left: -0.5px;
+               width: 100%;
+               height: 250px;
+               }
+
+        .head .logo img{position: relative;
+                        left: 20px;
+                        top: 0px;
+                        border-radius: 70px 70px 20px 20px;
+                       }
+
+        .head .langbar select{position: relative;
+                              top: 10px;
+                              left: 90%;
+                              width: 150px;
+                              height: 50px;
+                              background-color: blue;
+                              color: white;
+                              font-size: 30px;
+                              }
+
+        .head .langbar optgroup{font-size: 30px;
+                                color: white;
+                                }
+
+
+        .head .toplinks .block{font-size: 20px;
+                               background-color: black;
+                               border-style: solid;
+                               border-color: white;
+                               color: white;
+                               text-align: center;
+                               width: 19.8%;
+                               height: 70px;
+                               font-family: "Lucida Console";
+                               }
+
+        .scroll-slow {height: 70px;
+                      overflow: hidden;
+                      position: relative;
+                      top: 318px;
+                      left: -5px;
+                      width: 100.5%;
+                      background: orange;
+                      color: black;
+                      border: 1px solid orange;
+                      }
+
+        .scroll-slow marquee {position: relative;
+                              width: 100%;
+                              margin: 0;
+                              font-size: 25px;
+                              line-height: 80px;
+                              text-align: center;
+                              }
+
+    /* CSS FOR MIDDLEAREA */
+
+        .middlearea .leftlinks{position:relative;
+                               background-color: Brown;
+                               padding: 20px 20px 20px 20px;
+                               width: 30%;
+                               top: 320px;
+                               left: 0px;
+                               text-align: center;
+                               border-style: solid;
+                               border-color: black;
+                               border-size: 5px;
+                               color: black;
+                               }
+
+        .middlearea .leftlinks h1{font-size: 50px;
+                                  color: yellow;
+                                  }
+        .middlearea .leftlinks h2{font-size: 50px;
+                                  color: orange;
+                                  font-family: "Georgia";
+                                  }
+
+        .middlearea .centerlink{position: relative;
+                                left: 40%;
+                                top: -100px;
+                                width: 25%;
+                                height: 500px;
+                                text-align: center;
+                                }
+
+        .middlearea .centerlink p{text-align: center;
+                                  color: Brown;
+                                  position: relative;
+                                  font-size: 50px;
+                                  }
+
+        .middlearea .centerlink .dropdown {width: 300px;
+                                           height: 70px;
+                                           font-size: 30px;
+                                           text-align: center;}
+
+        .middlearea .rightlinks{position:relative;
+                                background-color: Brown;
+                                padding: 20px 20px 20px 20px;
+                                width: 30%;
+                                top: -800px;
+                                left: 70%;
+                                text-align: center;
+                                border-style: solid;
+                                border-color: black;
+                                border-size: 5px;
+                                color: black;
+                                font-family: "Georgia";
+                                }
+
+        .middlearea .rightlinks h1{font-size: 50px;
+                                   color: yellow;}
+
+        .middlearea .rightlinks .user{color: orange;
+                                      font-size: 50px;
+                                      }
+
+        .middlearea .rightlinks .userinput input{color: coral;
+                                                 font-size: 30px;
+                                                 width: 250px;
+                                                 height: 60px;
+                                                }
+
+        .middlearea .rightlinks .lowlink {font-size: 30px;
+                                          color: white;
+                                         }
+
+        .middlearea .rightlinks button{background-color: blue;
+                                       color: white;
+                                       width: 150px;
+                                       height: 80px;
+                                       font-size: 30px;
+                                       }
+
+    /* CSS FOR IMAGES */
+        .images{position: relative;
+                width: 99%;
+                height: 1900px;
+                top: -700px;
+                left: 10px;
+                border-style: solid;
+                border-color: black;
+                border-width: 20px;
+                background-color: DarkRed;
+                }
+
+        .images .img1{ position: relative;
+                       width: 50%;}
+
+        .images .img1 img{position: relative;
+                          top: 0px;
+                          width: 80%;
+                          height: 800px;
+                          left: 100px;
+                         }
+
+        .images .img1 h1{font-size: 50px;
+                         color: white;
+                        }
+
+        .images .img2{position: relative;
+                      width: 50%;
+                      left: 50%;
+                      top: -880px;}
+
+        .images .img2 img{position: relative;
+                          width: 80%;
+                          height: 800px;
+                          }
+
+        .images .img2 h1{font-size: 50px;
+                         color: white;
+                        }
+
+        .images .img3{ position: relative;
+                       width: 50%;
+                       top: -850px;}
+
+        .images .img3 img{position: relative;
+                          top: 0px;
+                          width: 80%;
+                          height: 800px;
+                          left: 100px;
+                         }
+
+        .images .img3 h1{font-size: 50px;
+                         color: white;
+                        }
+
+        .images .img4{position: relative;
+                      width: 50%;
+                      left: 50%;
+                      top: -1730px;}
+
+        .images .img4 img{position: relative;
+                          width: 80%;
+                          height: 800px;
+                          }
+
+        .images .img4 h1{font-size: 50px;
+                         color: white;
+                        }

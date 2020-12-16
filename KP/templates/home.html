@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="'viewport" content="width-device-width,initial scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- STYLESHEET FOR HOME -->
+    <link rel="stylesheet" href="{% static 'ankitahomecss.css' %}">
+    <!-- STYLESHEET FOR FOOTER -->
+    <link rel="stylesheet" href="{% static 'foothome.css' %}">
+    <title>HOME PAGE</title>
+</head>
+<body class="body">
+    {% block content %}
+
+        <!-- CODE FOR HEADER -->
+        <div class="head">
+            <!--CODE FOR LANGUAGE BAR -->
+            <div class="langbar">
+                <select name="language">
+                    <optgroup>
+                        <option name="English">English</option>
+                        <option name="Hindi">Hindi</option>
+                    </optgroup>
+                </select>
+            </div>
+            <!--CODE FOR LOGO -->
+            <div class="logo">
+                <img src=" {% static 'new.jpeg'%} " height="200" width="400">
+            </div>
+            <!--CODE FOR TOP BUTTONS -->
+            <div class="toplinks">
+                <b>
+                    <button class="block">HOME</button>
+                    <button class="block">FACILITIES</button>
+                    <button class="block">TECHNOLOGIES</button>
+                    <button class="block">BUYER/SELLER</button>
+                    <button class="block">REACH US</button>
+                </b>
+            </div>
+        </div>
+
+        <!--CODE FOR SCROLL BAR -->
+        <div class="scroll-slow">
+            <marquee behavior="scroll" scrollamount="20" onmouseover="this.stop();" onmouseout="this.start();">
+                THE UPDATES FOR THE WEBSITE WILL BE DISPLAYED ON THIS BAR.FOR MORE INFORMATION CLICK <a>show more</a>
+            </marquee>
+        </div>
+
+        <!--CODE FOR MIDDLE AREA-->
+        <div class="middlearea">
+            <!--CODE FOR LEFT LINKS-->
+            <div class="leftlinks">
+                <h1>IMPORTANT LINKS</h1>
+                <hr size="10" color="black">
+                <h2>About KisanParvarish</h2><br>
+                <hr color="black">
+                <h2>Dashboard</h2><br>
+                <hr color="black">
+                <h2>Registration</h2><br>
+                <hr color="black">
+                <h2>Farmer's List</h2><br>
+                <hr color="black">
+                <h2>Existing Crops</h2><br>
+                <hr color="black">
+                <h2>Requirement's List</h2><br>
+            </div>
+            <!-- CODE FOR CENTER AREA-->
+            <div class="centerlink">
+                <p><b>SELECT THE STATE TO CHECK THE AVAILABILITY</b></p>
+                <select name="state" id="state" class="dropdown">
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                    <option value="Daman and Diu">Daman and Diu</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Lakshadweep">Lakshadweep</option>
+                    <option value="Puducherry">Puducherry</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="West Bengal">West Bengal</option>
+                </select>
+            </div>
+
+            <!--CODE FOR RIGHT LINK-->
+            <div class="rightlinks">
+                <h1>LOGIN / REGISTER</h1>
+                <hr size="10" color="black">
+                <div class="user">
+                    USERNAME :
+                </div>
+                <div class="userinput">
+                    <input type="text" width="500" height="200" placeholder="Enter Username">
+                </div>
+                <br>
+                <div class="user">
+                    PASSWORD :
+                </div>
+                <div class="userinput">
+                    <input type="text" width="500" height="200" placeholder="Enter Password">
+                </div>
+                <br><br>
+                <div class="lowlink">
+                    <pre><img src="{% static 'forgot password.png' %}" width="30" height="40"> FORGOT PASSWORD?  <img src="{% static 'new user.png' %}" width="30" height="40"> NEW USER?</pre>
+                </div>
+                <button type="button" name="login" class="submitbutton">LOGIN</button>
+            </div>
+        </div>
+
+        <!--CODE FOR IMAGES-->
+        <div class="images">
+            <div class="img1">
+                <center>
+                    <img src="{% static 'img1.jpg' %}" width="1000" height="1000">
+                    <h1>CROP MONITORING</h1>
+                </center>
+            </div>
+            <div class="img2">
+                <center>
+                    <img src="{%static 'img2.jpg' %}" width="1000" height="1000">
+                    <h1>CROP MONITORING THROUGH DRONES</h1>
+                </center>
+            </div>
+            <div class="img3">
+                <center>
+                    <img src="{% static 'img3.jpg' %}">
+                    <h1>Moisture Sensor</h1>
+                </center>
+            </div>
+            <div class="img4">
+                <center>
+                    <img src="{% static 'img4.jpg' %}">
+                    <h1>Drip Irrigation</h1>
+                </center>
+            </div>
+        </div>
+
+        <!--CODE FOR FOOTER-->
+        <div class="foot">
+            <footer>
+                <div class="content">
+                    <div class="left box">
+                        <div class="upper">
+                            <div class="topic">About us</div>
+                            <p>Kisan Parvarish is a all in one solution for all your selling any buying agro needs Bla Bla Bla .</p>
+                        </div>
+                        <div class="lower">
+                            <div class="topic">Contact us</div>
+                            <div class="phone">
+                                <a href="#"><i class="fas fa-phone-volume"></i>+9897654536</a>
+                            </div>
+                            <div class="email">
+                                <a href="#"><i class="fas fa-envelope"></i>kisanparvarish@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="middle box">
+                        <div class="topic">Our Services</div>
+                        <div><a href="#">Farmer's Portal</a></div>
+                        <div><a href="#">Seller's Portal</a></div>
+                        <div><a href="#">Hastle Free Payments</a></div>
+                        <div><a href="#">Etc</a></div>
+                        <div><a href="#">Etc</a></div>
+                        <div><a href="#">Many more...</a></div>
+                    </div>
+                    <div class="right box">
+                        <div class="topic">Subscribe us</div>
+                        <form action="#">
+                            <input type="text" placeholder="Enter email address">
+                            <input type="submit" name="" value="Send">
+                            <div class="media-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <p>Copyright © 2020 <a href="#">Kanishk Saini</a> All rights reserved</p>
+                </div>
+            </footer>
+        </div>
+    {% endblock %}
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+</body>
+</html>
