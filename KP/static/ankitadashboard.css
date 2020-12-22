@@ -1,0 +1,141 @@
+    /*CSS FOR BODY*/
+
+    .body{background-size : 100%;
+          }
+
+    /*CSS FOR HEADER*/
+    .head{position: absolute;
+          background-color : yellow;
+          top : 0px;
+          left: 0px;
+          width : 100%;
+          height : 300px;
+          }
+
+    .head .logo img{position: relative;
+                    left: 20px;
+                    top: 0px;
+                    border-radius: 70px 70px 20px 20px;
+                   }
+
+    .head .logohead{position: relative;
+                    left: 450px;
+                    top: -170px;
+                    font-size: 25px;
+                    }
+
+    .head .detail{position: relative;
+                  color: red;
+                  font-size: 25px;
+                  left: 80%;
+                  top: -220px;
+                  }
+
+    .head .langbar select{position: relative;
+                          top: 10px;
+                          left: 90%;
+                          width: 200px;
+                          height: 70px;
+                          background-color: blue;
+                          color: white;
+                          font-size: 30px;
+                         }
+
+    .head .langbar optgroup{font-size: 30px;
+                            color: white;
+                           }
+
+    /*CSS FOR CENTER AREA*/
+
+    .center{position:relative;
+            height: 2050;}
+
+    .center .personal{position: relative;
+                      background-color: gray;
+                      width: 99%;
+                      height: 2000px;
+                      top :310px;
+                      margin: 10px 10px 10px 10px;
+                      border-style: solid;
+                      border-color: black;
+                      border-radius: 20px 20px 20px 20px;
+                     }
+
+    .center .personal .detail{position: relative;
+                              margin: 20px 20px 20px 20px;
+                              width: 80%;
+                              height: 700px;
+                              left: 10%;
+                              background-color: rgb(51,51,51);
+                              border-radius: 20px 20px 20px 20px;
+                              align: center;
+                              }
+
+    .center .personal .detail h1{font-size: 80px;
+                                 text-align: center;
+                                 color: yellow;
+                                }
+
+    .center .personal .detail .vp{font-size: 30px;
+                                  position: relative;
+                                  color: white;
+                                  left: 30%;
+                                  padding: 20px 0px 20px 20px;
+                                  }
+
+    .center .bottom{position: relative;
+                    top: -100px;
+                    }
+
+    .center .bottom img{position: relative;
+                        top: -1500px;
+                        left: 15%;
+                        border-radius: 200px 200px 200px 200px;}
+
+    .center .monthly{position: relative;
+                     top: -400px;
+                     }
+
+    .center .monthly img{position: relative;
+                         top: -950px;
+                         left: 20%;
+                         }
+
+    .center .monthly .circle{position: relative;
+                             left: 70%;
+                             border-style: solid;
+                             border-color: black;
+                             background-color: rgb(51,51,51);
+                             border-radius: 800px 800px 800px 800px;
+                             width: 12%;
+                             height: 220px;
+                             top: -1300px;
+                             font-size: 30px;
+                             text-align:center;
+                             color: white;
+                             }
+    .center .yearly{position: relative;
+                    top: -400px;
+                    }
+
+    .center .yearly img{position: relative;
+                        top: -1100px;
+                        left: 20%;
+                       }
+
+    .center .yearly .circle{position: relative;
+                            left: 70%;
+                            border-style: solid;
+                            border-color: black;
+                            background-color: rgb(51,51,51);
+                            border-radius: 800px 800px 800px 800px;
+                            width: 12%;
+                            height: 220px;
+                            top: -1500px;
+                            font-size: 30px;
+                            text-align:center;
+                            color: white;
+                            }
+
+    .foot{position: relative;
+          bottom: 0px;}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="'viewport" content="width-device-width,initial scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- STYLESHEET FOR HOME -->
+    <link rel="stylesheet" href="{% static 'ankitadashboard.css' %}">
+    <!-- STYLESHEET FOR FOOTER -->
+    <link rel="stylesheet" href="{% static 'foothome.css' %}">
+    <title>Farmer's Dashboard</title>
+</head>
+<body class="body">
+    {% block content %}
+
+    <!--CODE FOR HEADER-->
+    <div class="head">
+        <!--CODE FOR LANGUAGE BAR -->
+        <div class="langbar">
+            <select name="language">
+                <optgroup>
+                    <option name="English">English</option>
+                    <option name="Hindi">Hindi</option>
+                </optgroup>
+            </select>
+        </div>
+        <!--CODE FOR LOGO -->
+        <div class="logo">
+            <img src=" {% static 'new.jpeg'%} " height="200" width="400">
+        </div>
+        <div class="logohead">
+            <h1>KISANPARVARISH</h1>
+            <h1>DASHBOARD</h1>
+        </div>
+        <div class="detail">
+            <h3>STATE : Delhi </h3>
+            <h3>ID : F02110 </h3>
+        </div>
+    </div>
+
+    <!--CODE FOR CENTER AREA-->
+    <div class="center">
+        <div class="personal">
+            <div class="detail">
+                <h1>PERSONAL DETAILS</h1>
+                <div class="vp">
+                    <h3>NAME : </h3>
+                    <h3>FARMER ID : </h3>
+                    <h3>AGE : </h3>
+                    <h3>ADRESS : </h3>
+                    <h3>LAND IN OWNERSHIP(ACRES) : </h3>
+                    <h3>CROPS PRODUCED : </h3>
+                    <h3>EXISTING CROPS : </h3>
+                    <h3>SOLD CROPS : </h3>
+                    <h3>NET INCOME : </h3>
+                    <h3>SUPPLIES LEFT: </h3>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <img src=" {% static 'farmer.jpg'%} " height="400" width="400">
+        </div>
+        <div class="monthly">
+            <img src=" {% static 'monthly.png'%} " height="500" width="1000">
+            <div class="circle">
+                <BR>
+                <h3>MONTHLY</h3>
+                <h3>EXCHANGE</h3>
+            </div>
+        </div>
+        <div class="yearly">
+            <img src=" {% static 'yearly.png'%} " height="500" width="1000">
+            <div class="circle">
+                <BR>
+                <h3>YEARLY</h3>
+                <h3>EXCHANGE</h3>
+            </div>
+        </div>
+    </div>
+
+    <!--CODE FOR FOOTER-->
+    <div class="foot">
+        <footer>
+            <div class="content">
+                <div class="left box">
+                    <div class="upper">
+                        <div class="topic">About us</div>
+                        <p>Kisan Parvarish is a all in one solution for all your selling any buying agro needs Bla Bla Bla .</p>
+                    </div>
+                    <div class="lower">
+                        <div class="topic">Contact us</div>
+                        <div class="phone">
+                            <a href="#"><i class="fas fa-phone-volume"></i>+9897654536</a>
+                        </div>
+                        <div class="email">
+                            <a href="#"><i class="fas fa-envelope"></i>kisanparvarish@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="middle box">
+                    <div class="topic">Our Services</div>
+                    <div><a href="#">Farmer's Portal</a></div>
+                    <div><a href="#">Seller's Portal</a></div>
+                    <div><a href="#">Hastle Free Payments</a></div>
+                    <div><a href="#">Etc</a></div>
+                    <div><a href="#">Etc</a></div>
+                    <div><a href="#">Many more...</a></div>
+                </div>
+                <div class="right box">
+                    <div class="topic">Subscribe us</div>
+                    <form action="#">
+                        <input type="text" placeholder="Enter email address">
+                        <input type="submit" name="" value="Send">
+                        <div class="media-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="bottom">
+                <p>Copyright © 2020 <a href="#">Kanishk Saini</a> All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    {% endblock %}
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+</body>
+</html>
