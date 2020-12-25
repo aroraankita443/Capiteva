@@ -6,10 +6,10 @@
     <meta name="'viewport" content="width-device-width,initial scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- STYLESHEET FOR HOME -->
-    <link rel="stylesheet" href="{% static 'ankitadashboard.css' %}">
+    <link rel="stylesheet" href="{% static 'sellerdashboard.css' %}">
     <!-- STYLESHEET FOR FOOTER -->
     <link rel="stylesheet" href="{% static 'foothome.css' %}">
-    <title>Farmer's Dashboard</title>
+    <title>Seller's Dashboard</title>
 </head>
 <body class="body">
     {% block content %}
@@ -43,47 +43,38 @@
     <div class="center">
         <div class="personal">
             <div class="leftlinks">
-                <a href="blank.html" class="s">
-                    <h3>APPLY FOR CROP MONITORING</h3>
-                </a>
+                <h3>SEARCH FARMER'S IN YOUR STATE</h3>
                 <hr>
-                <a href="blank.html" class="s">
-                    <h3>APPLY FOR CROP MONITORING THROUGH DRONES</h3>
-                </a>
+                <h3>LIST OF CROPS PRODUCED THIS YEAR</h3>
                 <hr>
-                <a  href="blank.html" class="s">
-                    <h3>APPLY FOR MOISTURE SENSOR</h3>
-                </a>
+                <h3>CROPS HAVING THE HIGHEST DEMAND IN THE MARKET</h3>
                 <hr>
-                <a  href="blank.html" class="s">
-                    <h3>APPLY FOR DRIP IRRIGATION</h3>
-                </a>
+                <h3>PROMOTE YOURSELF</h3>
             </div>
             <div class="detail">
                 <h1>PERSONAL DETAILS</h1>
                 <div class="vp">
                     <h3>NAME : </h3>
-                    <h3>FARMER ID : </h3>
+                    <h3>SELLER ID : </h3>
                     <h3>AGE : </h3>
                     <h3>ADRESS : </h3>
-                    <h3>LAND IN OWNERSHIP(ACRES) : </h3>
-                    <h3>CROPS PRODUCED : </h3>
-                    <h3>EXISTING CROPS : </h3>
+                    <h3>ANNUAL INCOME : </h3>
+                    <h3>CROPS REQUIRED : </h3>
+                    <h3>EXISTING SUPPLIES : </h3>
                     <h3>SOLD CROPS : </h3>
-                    <h3>NET INCOME : </h3>
-                    <h3>SUPPLIES LEFT: </h3>
+                    <h3>ANNUAL PURCHASE : </h3>
                 </div>
             </div>
         </div>
         <div class="bottom">
-            <img src=" {% static 'farmer.jpg'%} " height="400" width="400">
+            <img src=" {% static 'seller.jpg'%} " height="400" width="400">
         </div>
         <div class="monthly">
             <img src=" {% static 'monthly.png'%} " height="500" width="1000">
             <div class="circle">
                 <BR>
                 <h3>MONTHLY</h3>
-                <h3>EXCHANGE</h3>
+                <h3>PURCHASE</h3>
             </div>
         </div>
         <div class="yearly">
@@ -91,7 +82,7 @@
             <div class="circle">
                 <BR>
                 <h3>YEARLY</h3>
-                <h3>EXCHANGE</h3>
+                <h3>PURCHASE</h3>
             </div>
         </div>
     </div>

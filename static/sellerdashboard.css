@@ -21,19 +21,16 @@
     .head .logohead{position: relative;
                     left: 450px;
                     top: -170px;
-                    font-size: 30px;
+                    font-size: 25px;
                     }
-
-    .head .logohead h1{font-family: "Constantia";}
 
     .head .detail{position: relative;
                   color: red;
-                  font-size: 30px;
+                  font-size: 25px;
                   left: 80%;
                   top: -220px;
                   }
 
-    .head .detail h3{font-family: "Minion Pro Bold";}
     .head .langbar select{position: relative;
                           top: 10px;
                           left: 90%;
@@ -48,11 +45,10 @@
                             color: white;
                            }
 
-    /*CSS FOR CENTER AREA*/
+    /*CSS FOR CENTER AREA
 
     .center{position:relative;
-            height: 2100;
-            }
+            height: 2050;}
 
     .center .personal{position: relative;
                       background-color: gray;
@@ -65,60 +61,35 @@
                       border-radius: 20px 20px 20px 20px;
                      }
 
-    .center .personal .leftlinks{position: relative;
-                                 width: 25%;
-                                 top: 20px;
-                                 background-color: rgb(255,204,153);
-                                 border-radius: 20px 20px 20px 20px;
-                                 font-size: 30px;
-                                 height: 700px;
-                                 text-align: center;
-                                 color: brown;
-                                 left: 10px;
-                                 padding: 20px 20px 20px 20px;
-                                }
-
-    .center .personal .leftlinks h3{font-family: "Gabriola";
-                                    }
-
-    .center .personal .leftlinks hr{color: black;
-                                    border-size: 20px;
-                                    border-style: solid;
-                                    border-color: black;}
-
     .center .personal .detail{position: relative;
                               margin: 20px 20px 20px 20px;
-                              width: 73%;
+                              width: 80%;
                               height: 700px;
-                              left: 25%;
-                              top: -700px;
+                              left: 10%;
                               background-color: rgb(51,51,51);
                               border-radius: 20px 20px 20px 20px;
                               align: center;
                               }
 
-    .center .personal .detail h1{font-size: 90px;
+    .center .personal .detail h1{font-size: 80px;
                                  text-align: center;
                                  color: yellow;
-                                 font-family: "Tahoma Bold";
                                 }
 
-    .center .personal .detail .vp{font-size: 40px;
+    .center .personal .detail .vp{font-size: 30px;
                                   position: relative;
                                   color: white;
                                   left: 30%;
                                   padding: 20px 0px 20px 20px;
                                   }
 
-    .center .personal .detail .vp h3{font-family: "Cambria";
-                                    }
     .center .bottom{position: relative;
                     top: -100px;
                     }
 
     .center .bottom img{position: relative;
-                        top: -1450px;
-                        left: 28%;
+                        top: -1500px;
+                        left: 15%;
                         border-radius: 200px 200px 200px 200px;}
 
     .center .monthly{position: relative;
@@ -143,9 +114,6 @@
                              text-align:center;
                              color: white;
                              }
-
-    .center .monthly .circle h3{font-family: "MV Boli";}
-
     .center .yearly{position: relative;
                     top: -400px;
                     }
@@ -168,8 +136,6 @@
                             text-align:center;
                             color: white;
                             }
-
-    .center .yearly .circle h3{font-family: "MV Boli";}
 
     .foot{position: relative;
           bottom: 0px;}
